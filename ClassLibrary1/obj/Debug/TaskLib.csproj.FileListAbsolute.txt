@@ -1,0 +1,6 @@
+C:\Study\SIC\4\ISMPrakt04\ClassLibrary1\obj\Debug\TaskLib.csproj.CoreCompileInputs.cache
+C:\Study\SIC\4\ISMPrakt04\ClassLibrary1\bin\Debug\TaskLib.dll
+C:\Study\SIC\4\ISMPrakt04\ClassLibrary1\bin\Debug\TaskLib.pdb
+C:\Study\SIC\4\ISMPrakt04\ClassLibrary1\obj\Debug\TaskLib.dll
+C:\Study\SIC\4\ISMPrakt04\ClassLibrary1\obj\Debug\TaskLib.pdb
+C:\Study\SIC\4\ISMPrakt04\ClassLibrary1\obj\Debug\TaskLib.csproj.AssemblyReference.cache

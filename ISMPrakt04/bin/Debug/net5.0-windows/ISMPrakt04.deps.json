@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ISMPrakt04/1.0.0": {
+        "dependencies": {
+          "TaskLib": "1.0.0"
+        },
+        "runtime": {
+          "ISMPrakt04.dll": {}
+        }
+      },
+      "TaskLib/1.0.0": {
+        "runtime": {
+          "TaskLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ISMPrakt04/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
