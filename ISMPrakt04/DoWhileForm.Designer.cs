@@ -36,6 +36,7 @@ namespace ISMPrakt04
             // 
             // TextInput
             // 
+            this.TextInput.BackColor = System.Drawing.SystemColors.Highlight;
             this.TextInput.Location = new System.Drawing.Point(12, 12);
             this.TextInput.Multiline = true;
             this.TextInput.Name = "TextInput";
@@ -54,18 +55,20 @@ namespace ISMPrakt04
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Magenta;
             this.button1.Location = new System.Drawing.Point(409, 74);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 73);
             this.button1.TabIndex = 2;
             this.button1.Text = "Запустити цикл";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // DoWhileForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(534, 273);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.LabelOutput);

@@ -64,26 +64,29 @@ namespace ISMPrakt04
             // 
             // ResultButton
             // 
+            this.ResultButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ResultButton.Location = new System.Drawing.Point(216, 12);
             this.ResultButton.Name = "ResultButton";
             this.ResultButton.Size = new System.Drawing.Size(94, 29);
             this.ResultButton.TabIndex = 2;
             this.ResultButton.Text = "Розрахувати";
-            this.ResultButton.UseVisualStyleBackColor = true;
+            this.ResultButton.UseVisualStyleBackColor = false;
             this.ResultButton.Click += new System.EventHandler(this.ResultButton_Click);
             // 
             // OutputTextBox
             // 
+            this.OutputTextBox.BackColor = System.Drawing.SystemColors.HotTrack;
             this.OutputTextBox.Location = new System.Drawing.Point(12, 60);
             this.OutputTextBox.Multiline = true;
             this.OutputTextBox.Name = "OutputTextBox";
-            this.OutputTextBox.Size = new System.Drawing.Size(284, 61);
+            this.OutputTextBox.Size = new System.Drawing.Size(377, 144);
             this.OutputTextBox.TabIndex = 3;
             // 
             // WhileForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(531, 233);
             this.Controls.Add(this.OutputTextBox);
             this.Controls.Add(this.ResultButton);

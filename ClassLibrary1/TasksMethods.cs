@@ -110,17 +110,17 @@ namespace TaskLib
         }
 
         //DoWhile1
-        public static int DoWhileTask(TextBox textbox)
+        public static int DoWhileTask(List<int> arr)
         {
-            int num;
+            int i = 0;
             int summ = 0;
             do
             {
-                if (!int.TryParse(textbox.Text, out num)) continue;
-                summ += num;
-                textbox.Text = "";
+                summ += arr[i];
+                if (arr[i] == 0 || i == arr.Count()) break ;
+                i++;
             }
-            while (num!=2);
+            while (true);
             return summ;
         }
 
